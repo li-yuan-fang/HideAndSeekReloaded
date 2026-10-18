@@ -1,0 +1,25 @@
+#最小玩家人数
+min_players: 4
+#大厅等待时间
+waiting_time: 50
+#猎手比例
+seeker_rate: 0.25
+#开启木牌加入游戏
+allow_sign: true
+
+#伪装状态速度比例
+speed_disguised: 0.8
+
+#体力上限
+max_stamina: 240
+#每次冲刺消耗的体力
+dash_stamina: 25
+#体力恢复速度
+stamina_speed: 1.0
+#最终时刻猎手体力消耗速度
+stamina_use_last: 0.8
+
+#参与奖励
+base_prize: 50
+#获胜奖励
+win_prize: 100

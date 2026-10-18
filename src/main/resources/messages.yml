@@ -1,0 +1,205 @@
+#全局
+prefix: '&6[&9游侠与猎手&6]'
+no_permission: '&c权限不足'
+unknown_command: '&c未知指令，请输入 /has help 获取帮助'
+unknown_param: '&c未知参数'
+unknown_game: '&c找不到指定的游戏'
+less_param: '&c参数不足'
+force_number: '&c参数必须是数字'
+only_op: '&c(仅限管理员使用)'
+only_player: '&c仅玩家可执行该指令'
+
+#隐秘通讯
+team_chat: '&a[隐秘通讯]&e%player%&a> &6'
+
+#信息指令部分
+info_title: '&9游侠与猎手 &aver.%version%'
+info_author: '&eBy: %authors%'
+info_desc: '&6查看插件信息'
+
+#帮助指令部分
+help_title: '&a插件帮助'
+help_desc: '&6查看插件帮助'
+
+#重载指令部分
+reload_desc: '[all|config|lang|games] &6重载插件数据'
+reload_success: '&a重载插件%part%成功'
+reload_failed: '&c重载插件%part%失败，请查看后台错误报告'
+reload_all: '全部配置'
+reload_config: '设置'
+reload_lang: '语言'
+reload_games: '游戏'
+
+#加入游戏指令部分
+join_desc: '<游戏名称> &6加入游戏'
+join_success: '&a你已成功加入游戏 &e%game%'
+join_already: '&c你已经加入了游戏'
+join_failed: '&c加入游戏失败 &e%reason%'
+
+#退出游戏指令部分
+leave_desc: '&6退出游戏'
+leave_out: '&c你没有加入游戏，无需退出'
+leave_complete: '&a你已退出游戏'
+
+#列出游戏指令部分
+list_desc: '[页码] &6显示游戏列表'
+list_none: '&e暂时发现任何游戏哦'
+list_show: '&a找到了 &e%count% &a个游戏 &e[%cur%/%max%]'
+list_waiting: '&a可加入'
+list_gaming: '&7游戏中'
+list_tips: '&a可使用 &e/has list [页码] &a来切换页面'
+
+#强制开始游戏指令部分
+start_desc: '<游戏名称> &6强制开始游戏'
+start_success: '&a你已成功开始游戏 &e%game%'
+start_failed: '&c无法开始游戏 &e%reason%'
+
+#强制结束游戏指令部分
+stop_desc: '<游戏名称> &6强制结束游戏'
+stop_complete: '&a你已成功结束游戏 %game%'
+
+#创建游戏指令部分
+create_desc: '<游戏名称> &6创建游戏'
+create_complete: '&a成功创建游戏'
+
+#编辑游戏指令部分
+edit_desc: '<游戏名称> <display|max|time|blocks> &6编辑游戏参数'
+edit_success: '&a游戏参数编辑成功'
+
+#设置游戏地标指令部分
+setwarp_desc: '<游戏名称> <lobby|seeker|hider|pos1|pos2> &6设置游戏地标'
+swtwarp_success: '&a设置游戏地标 &e%warp% &a成功'
+
+#移除游戏指令部分
+remove_desc: '<游戏名称> &6移除游戏'
+remove_complete: '&a已成功移除游戏 &e%game%'
+
+#保存游戏指令部分
+save_desc: '&6保存游戏'
+save_complete: '&a已成功保存游戏'
+
+
+#大厅提示消息部分
+lobby_ready: '&e游戏将在 &a%sec% &e秒后开始，请做好准备'
+lobby_ready_nearly: '&e游戏将在 &a%sec% &e秒后开始'
+lobby_join_broadcast: '&9玩家 &e%player% &9加入了游戏 &e[%count%]'
+lobby_leave_broadcast: '&9玩家 &e%player% &9离开了游戏 &e[%count%]'
+lobby_count: '&a&l游戏即将开始'
+lobby_count_sub: '&e&l请选择你的技能'
+
+#游戏内提示
+#全局
+game_start: '&a游戏开始'
+game_hider_start: '&9你是 &a游侠 &9，现在你有 &e30 &9秒的时间藏匿'
+game_seeker_wait: '&9游侠藏匿中，请耐心等待 &e30 &9秒'
+game_seeker_start: '&a抓捕开始'
+game_seeker_release: '&c猎手已出发'
+game_summon_airdrop_pre: '&9眷顾之能将在 &a3 &9秒内出现'
+game_summon_airdrop: '&9&l眷顾之能已降临在 &e&l%pos%'
+game_deadline: '&e距离游戏结束还有 &a%sec% &e秒'
+game_over: '&9游戏结束'
+game_win: '&a恭喜 &e%role% &a获得了胜利'
+game_prize: '&a游戏奖励 &e%prize% &a游戏币已发放到你的账户'
+game_last_time: '&e距离游戏结束仅剩 &a30 &e秒 &c猎手奔跑体力消耗将降低'
+game_hider: '游侠'
+game_seeker: '猎手'
+#规则&保护
+game_no_command: '&c游戏中不允许使用指令'
+game_no_ready: '游戏未完成部署'
+game_gaming: '游戏正在进行中'
+game_no_players: '游戏人数不足'
+game_starting: '&c游戏正在启动中'
+game_leave: '&a你已成功退出游戏'
+game_stop_force: '&c&l管理员终止了游戏'
+game_forbid_command: '&c&l游戏过程中禁止使用指令'
+game_forbid_leave: '&c当前阶段禁止退出游戏'
+#伪装
+game_forbid_disguise: '&c&l你的伪装已被暂时解除'
+game_no_disguise: '&c&l当前状态禁止伪装'
+game_allow_disguise: '&a&l伪装技能已解锁'
+game_solid: '&a你已成为固定方块'
+game_unsolid: '&c你已解除固定状态'
+#捕获
+game_hider_caught: '&c&l你已被捕获'
+game_hider_caught_sub: '&a&l你现在成为了 游观者'
+game_hider_caught_broadcast: '&c游侠 &e%hider% &c已被捕获'
+#技能
+game_failed_beacon: '&c&l当前位置无法放置信标'
+game_no_repeat: '&c&l无法重复使用技能'
+game_get_airdrop: '&a%role% &e%player% &9获得了眷顾之能'
+game_use_airdrop: '&a%role% &e%player% &9使用了眷顾之能 %skill%'
+
+#技能
+skill_cd: '&a&l技能冷却: &e&l%sec% &a&l秒'
+skill_max: '&a&l技能上限: &e&l%max%'
+skill_only: '&c&l该技能只能使用一次'
+skill_success: '&a&l你已成功使用 %skill%'
+skill_success_split: '&e&l·'
+skill_select: '&9&l选择技能'
+skill_leave: '&c&l离开游戏'
+skill_leave_desc: '&e&l请 &a&l丢出物品 &e&l以离开游戏'
+
+skill_title_beacon: '&b&l匿踪信标'
+skill_desc_beacon: '&e在附近放置一个信标\n&a信标范围内的游侠会获得隐身效果\n&e如果信标被捕获，猎手的视线会受到短暂的遮挡'
+
+skill_title_vanish: '&b&l透明戏法'
+skill_desc_vanish: '&e使用该技能后会得到5s的隐身时间\n&c但隐身状态下的游侠仍然可以被捕获'
+skill_tip_vanish: '&a&l效果将持续 &c&l5s'
+
+skill_title_hide: '&9&l伪装'
+skill_desc_hide: '&a右键 &e使用该技能可以伪装成方块\n&c左键 &e使用该技能可解除伪装'
+
+skill_title_run_fast: '&a&l星步急行'
+skill_desc_run_fast: '&e在使用该技能后会获得 &9加速效果\n&e效果时间将持续 &c30s'
+skill_tip_run_fast: '&a&l效果将持续 &c&l30s'
+
+skill_title_direction: '&6&l神秘预感'
+skill_desc_direction: '&e使用该技能后会短暂标示出所有游侠的方向'
+skill_tip_direction: '&c&l所有游侠方向已标示'
+
+skill_title_cast_net: '&6&l猎手投网'
+skill_desc_cast_net: '&e使用该技能后会投出一张网\n&a可以无视信标保护解除网范围内的所有游侠的伪装\n&b如果网范围内有游侠，猎手会得到提示'
+skill_sensed_cast_net: '&c猎网范围内发现游侠！'
+
+skill_title_sensor: '&6&l感应光环'
+skill_desc_sensor: '&e使用该技能后会侦测附近的游侠\n&a如果附近存在游侠，猎手会得到提示\n&c该技能可能会被信标干扰'
+skill_sensed_sensor: '&c当前范围内发现游侠！'
+
+skill_title_catch: '&9&l捕获'
+skill_desc_catch: '&e捕获附近有效范围内的游侠\n&c如果捕获到信标，则视线会受到遮挡\n&c(且此时无法捕获游侠)'
+skill_failed_catch: '&c&l视线已被信标遮挡'
+skill_success_catch: '&a你已成功抓捕游侠 &e%hider%'
+
+skill_title_lock: '&a&l禁锢诅咒'
+skill_desc_lock: '&e使用该技能后会随机禁锢一位游侠40s\n&c同时游侠阵营会收到警告'
+skill_broadcast_lock: '&c游侠 &e%hider% &c已被禁锢'
+skill_message_lock: '&c&l你已被禁锢'
+
+skill_title_point_all: '&a&l洞察全局'
+skill_desc_point_all: '&e使用该技能后短暂解除所有游侠的伪装\n&e此时，所有游侠都会被标示\n&c同时游侠阵营会收到警告'
+skill_tip_point_all: '&6&l所有游侠的位置已标示'
+skill_broadcast_point_all: '&c所有游侠的位置已被标示'
+
+skill_title_point_one_long: '&a&l狩猎直觉'
+skill_desc_point_one_long: '&e使用该技能后解除某位游侠的伪装一段时间\n&e此时，该游侠会被标示\n&c同时游侠阵营会收到警告'
+skill_broadcast_point_one_long: '&c游侠 &e%hider% &c的位置已被标示'
+
+skill_title_virtual_beacon: '&a&l幻形信标'
+skill_desc_virtual_beacon: '&e在附近放置一个信标\n&a信标范围内的游侠会获得隐身效果\n&e如果信标被捕获，猎手的视线会受到短暂的遮挡'
+
+#菜单
+menu_title_select_skill: '&9&l技能选择'
+menu_skull_select_skill: '&e玩家 &a%player% &e的技能'
+menu_hider_select_skill: '&a&l游侠'
+menu_seeker_select_skill: '&9&l猎手'
+
+menu_title_edit_blocks: '&9&l伪装方块编辑'
+menu_flag_title_edit_blocks: '&a&l编辑游戏 &e%game% &a&l的伪装方块'
+menu_flag_desc_edit_blocks: '&d&l请将可用伪装方块放入本菜单'
+menu_tip_save_edit_blocks: '&a方块数据已保存'
+
+#记分板
+scoreboard_remain: '&6&l剩余时间'
+scoreboard_seeker: '&c&l'
+scoreboard_hider: '&9&l'
+scoreboard_spectator: '&9&l&m'

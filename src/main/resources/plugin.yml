@@ -1,0 +1,16 @@
+name: HideAndSeekReloaded
+version: '${version}'
+main: net.rbcraft.hideandseek.HideAndSeek
+api-version: 1.19
+softdepend:
+  - Protocol
+  - LibsDisguises
+  - Essentials
+  - Vault
+authors: [ li_yuan_fang ]
+description: '游侠与猎手 copied from 风行迷踪'
+commands:
+  hideandseek:
+    description: '游侠与猎手 插件命令'
+    aliases:
+      - has
